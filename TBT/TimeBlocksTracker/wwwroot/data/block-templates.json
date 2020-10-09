@@ -1,0 +1,64 @@
+﻿{
+  "blocks": [
+    {
+      "name": "Start",
+      "color": "Gray",
+      "icon": "None"
+    },
+    {
+      "name": "Clean",
+      "color": "White",
+      "icon": "None"
+    },
+    {
+      "name": "Eat",
+      "color": "Orange",
+      "icon": "None"
+    },
+    {
+      "name": "Work",
+      "color": "Red",
+      "icon": "None"
+    },
+    {
+      "name": "Network",
+      "color": "Brown",
+      "icon": "None"
+    },
+    {
+      "name": "Exercise",
+      "color": "Green",
+      "icon": "None"
+    },
+    {
+      "name": "Walk",
+      "color": "Green",
+      "icon": "None"
+    },
+    {
+      "name": "Organize",
+      "color": "Purple",
+      "icon": "None"
+    },
+    {
+      "name": "Entertainment",
+      "color": "Orange",
+      "icon": "None"
+    },
+    {
+      "name": "Studying",
+      "color": "Purple",
+      "icon": "None"
+    },
+    {
+      "name": "Learning",
+      "color": "Red",
+      "icon": "None"
+    },
+    {
+      "name": "Practice",
+      "color": "Blue",
+      "icon": "None"
+    }
+  ]
+}
