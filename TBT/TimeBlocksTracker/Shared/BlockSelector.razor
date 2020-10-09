@@ -1,0 +1,41 @@
+﻿@using System.Net.Http
+@inject HttpClient Http
+
+
+<BlockSelectionGrid>
+    @foreach (var block in Data.BlockTemplates)
+    {
+        <Block BlockData=@block></Block>
+    }
+</BlockSelectionGrid>
+
+
+
+
+@code {
+    [Parameter] public CreatorState State { get; set; }
+    [Parameter] public Data Data { get; set; }
+
+
+    void SelectBlock()
+    {
+
+    }
+
+    void EditBlock()
+    {
+
+    }
+
+    void DeleteBlock()
+    {
+
+    }
+
+    void AddNewBlock()
+    {
+
+    }
+
+
+}

@@ -1,0 +1,76 @@
+﻿{
+  "blockTemplates": [
+    {
+      "name": "Start",
+      "color": "Gray",
+      "icon": "None",
+      "id": "51034a32-09cf-11eb-adc1-0242ac120002"
+    },
+    {
+      "name": "Clean",
+      "color": "White",
+      "icon": "None",
+      "id": "51034a32-09cf-11eb-adc1-0242ac120003"
+    },
+    {
+      "name": "Eat",
+      "color": "Orange",
+      "icon": "None",
+      "id": "51034a32-09cf-11eb-adc1-0242ac120004"
+    },
+    {
+      "name": "Work",
+      "color": "Red",
+      "icon": "None",
+      "id": "51034a32-09cf-11eb-adc1-0242ac120005"
+    },
+    {
+      "name": "Network",
+      "color": "Brown",
+      "icon": "None",
+      "id": "51034a32-09cf-11eb-adc1-0242ac120006"
+    },
+    {
+      "name": "Exercise",
+      "color": "Green",
+      "icon": "None",
+      "id": "51034a32-09cf-11eb-adc1-0242ac120007"
+    },
+    {
+      "name": "Walk",
+      "color": "Green",
+      "icon": "None",
+      "id": "51034a32-09cf-11eb-adc1-0242ac120008"
+    },
+    {
+      "name": "Organize",
+      "color": "Purple",
+      "icon": "None",
+      "id": "51034a32-09cf-11eb-adc1-0242ac120009"
+    },
+    {
+      "name": "Entertainment",
+      "color": "Orange",
+      "icon": "None",
+      "id": "51034a32-09cf-11eb-adc1-0242ac120011"
+    },
+    {
+      "name": "Studying",
+      "color": "Purple",
+      "icon": "None",
+      "id": "51034a32-09cf-11eb-adc1-0242ac120012"
+    },
+    {
+      "name": "Learning",
+      "color": "Red",
+      "icon": "None",
+      "id": "51034a32-09cf-11eb-adc1-0242ac120013"
+    },
+    {
+      "name": "Practice",
+      "color": "Blue",
+      "icon": "None",
+      "id": "51034a32-09cf-11eb-adc1-0242ac120014"
+    }
+  ]
+}

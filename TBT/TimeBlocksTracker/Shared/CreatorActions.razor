@@ -1,0 +1,10 @@
+﻿
+<button disabled="@(State != CreatorState.Selected)">Edit</button>
+<button disabled="@(State != CreatorState.Selected)">Delete</button>
+<button>Add</button>
+
+
+@code {
+    [Parameter] public CreatorState State { get; set; }
+    [Parameter] public Data Data { get; set; }
+}

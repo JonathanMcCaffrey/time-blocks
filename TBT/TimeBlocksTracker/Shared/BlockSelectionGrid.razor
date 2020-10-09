@@ -1,0 +1,20 @@
+﻿@using System.Net.Http
+@inject HttpClient Http
+
+<style>
+    .blockSelectorGrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 256px);
+        grid-gap: 10px;
+    }
+</style>
+
+<div class="blockSelectorGrid">
+    @ChildContent
+</div>
+
+
+@code {
+    [Parameter] public RenderFragment ChildContent { get; set; }
+
+}

@@ -1,0 +1,23 @@
+﻿@using System.Net.Http
+@inject HttpClient Http
+
+
+<style>
+    .block-@BlockData.Id {
+        width: 256px;
+        height: 256px;
+        background-color: @BlockData.Color;
+        border: 2px solid black;
+    }
+</style>
+<button class="block-@BlockData.Id">
+    @BlockData.Name
+</button>
+
+
+
+@code {
+    [Parameter] public BlockData BlockData { get; set; }
+
+
+}

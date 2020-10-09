@@ -1,9 +1,63 @@
-﻿@page "/Creator"
+﻿@using System.Net.Http
+@inject HttpClient Http
+
+@using Newtonsoft.Json
+
+
+@page "/Creator"
 
 <h1>Block Creator</h1>
 
+
+@if (Data == null)
+{
+    <div>Loading...</div>
+}
+else
+{
+    <h1>@State</h1>
+    @if (State == CreatorState.Selecting || State == CreatorState.Selected)
+    {
+        <BlockSelector Data=@Data />
+    }
+
+    <CreatorActions Data=@Data State=@State />
+}
+
 @code {
-    public string Name { get; set; }
-    public Color Color { get; set; }
-    public Icon Icon { get; set; }
+    CreatorState State { get; set; } = CreatorState.Selecting;
+
+    Data Data { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Data = JsonConvert.DeserializeObject<Data>(await Http.GetStringAsync("data/data.json"));
+    }
+
+
+    string Name { get; set; }
+    Color Color { get; set; }
+    Icon Icon { get; set; }
+
+    void SelectBlock()
+    {
+
+    }
+
+    void EditBlock()
+    {
+
+    }
+
+    void DeleteBlock()
+    {
+
+    }
+
+    void AddNewBlock()
+    {
+
+    }
+
+
 }
